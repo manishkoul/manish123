@@ -1,4 +1,4 @@
-package BasicTest;
+package java;
 
 import org.openqa.selenium.By;
 
