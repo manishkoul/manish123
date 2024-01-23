@@ -154,7 +154,18 @@ public class LocatorStrategyExample extends Base {
 
         //prefix or starts with '^'
         //$$("input[id^='e']")
-        //$$("input[id^='em']")
+        //$$("input[id^='em']")- Any combination
+
+        //suffix or ends-with ==> $
+        //$$("input[id^='l']")
+        //$$("input[id^='email']")
+        //$$("input[id^='el']")- Any combination end with l
+
+        //contains or substring ==> '*'
+        //$$("input[id*='email']")
+        //$$("input[id*='l']")
+        //$$("input[id*='e']")
+        //$$("input[id*='il']") -Any combination will work
 
 
 
