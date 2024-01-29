@@ -3,8 +3,12 @@ package BasicTest;
 public class NavigationExample extends Base{
 
     public void NavigationCommandsDemo() throws InterruptedException {
+
+        driver.navigate().refresh();
+        Thread.sleep(1000);
+        driver.navigate().refresh();
 //Navigate to
-        System.out.println("Navigate to Youtube page");
+       /* System.out.println("Navigate to Youtube page");
         Thread.sleep(3000);
         driver.navigate().to("https://www.youtube.com/");
 
@@ -28,7 +32,7 @@ public class NavigationExample extends Base{
         Thread.sleep(2000);
         driver.manage().window().minimize();
         Thread.sleep(2000);
-        driver.manage().window().maximize();
+        driver.manage().window().maximize();*/
     }
 
     public static void main(String[] args) throws InterruptedException {
